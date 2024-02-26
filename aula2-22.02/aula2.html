@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<<<<<<< HEAD
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+=======
+>>>>>>> ebf5bfa (aula 3 criada e aula 2 modificada)
+    <title>Aula 2 - Javascript</title>
+  </head>
+  <body>
+    <script>
+        let a = 10
+        // estrutura condicional
+        if(a < 6){
+            console.log("A é menor que 6")
+        } else if (a > 6){
+            console.log("A é maior que 6")
+        } else {
+            console.log("A é igual a 6")
+        }
+
+        // operador ternário
+        // consegue substituir o IF e ELSE
+        // se for verdade tudo que estiver depois do ? é executado, se não tudo depois do : é executado
+        (a > 5) ? console.log("A é maior que 5") : console.log("A não é maior que 5")
+
+        // switch ... case
+        let marvin = "robot"
+        switch(marvin){
+            case "human":
+            console.log("sou humano!")
+            break;
+            case "alien":
+            console.log("vou dominar o mundo")
+            break;
+            case "robo":
+            console.log("sou um robo")
+            break;
+            default:
+            console.log("o que é voce?")
+            break;
+        }
+
+        // estruturas de repetição
+        // Ctrl + F eu consigo alterar uma palavra no codigo todo
+        let cont = [5, 2]
+        //While testa no inicio
+        while((cont[0]+cont[1]) < 15){
+            cont[0] += 1;
+            cont[1] += 2
+            document.write('<br> cont0 = '+ cont[0] + ' cont1 = ' + cont[1]);
+        }
+
+        //Do while testa no final
+        do {
+            cont[0] += 1;
+            cont[1] += 2
+            document.write('<br> cont0 = '+ cont[0] + ' cont1 = ' + cont[1]);
+        } while((cont[0]+cont[1]) < 15)
+
+        let ifms = [5, 2, 3]
+        for(let i = 0; i < 3; i++){
+            cont[i]++
+        }
+
+    </script>
+  </body> 
+</html>
