@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #020;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    padding: 10px;
+    background: rgb(182, 219, 182);
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

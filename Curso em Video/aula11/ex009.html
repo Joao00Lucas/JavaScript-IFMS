@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem</title>
+    <style>
+        body {
+            background: rgb(131, 131, 199);
+            color: white;
+        }
+
+        input {
+            background: rgb(77, 71, 167);
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descubra seu você é nativo ou não</h1>
+    Informe seu país de origem: <input type="text" name="pais" id="txtpais">
+    <input type="button" value="Conferindo" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var pais = window.document.getElementById('txtpais')
+            var res = window.document.getElementById('res')
+            var origem = String(pais.value)
+            res.innerHTML = `Seu país de origem é: ${origem} `
+            if (origem == 'Brasil') {
+                res.innerHTML += '<p>Então você é brasileiro</P>'
+            } else {
+                res.innerHTML += '<p>então você é estrangeiro</p>'
+            }
+        }
+    </script>
+</body>
+</html>

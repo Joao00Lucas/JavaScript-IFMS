@@ -1,0 +1,137 @@
+#ANOTAÇÕES DO CURSO EM VÍDEO DE JAVASCRIPT DO GUANABARA
+
+# Primeiros Passos
+#Window.alert : dispara um alerta na minha pagina web;
+#Window.confirm : lança um quadro para confirmação de ok ou cancela;
+#Window.prompt : abre um espaço de pergunta para responder;
+
+# para comentar em JAVASCRIPT usamos ( // ) ou (/* */)
+
+
+############################################### AULA 06 #################################################
+# typeof me diz que tipo de elemento ele é, um number, uma string, um object, etc
+
+# null torna uma variavel vazia
+
+# Concatenação: usamos por exemplo o sinal de + para juntar dois pedaços, duas informações
+
+# (number + number) para adição
+# (string + string) para concatenação
+
+# Number.parseInt(n): converte um numero para um numero inteiro
+# Number.parseFloat(n): converte um numero para um numero real, com virgula
+# Number(n) é a maneira resumida onde o JS interpreta livremente
+
+# String(n) vai me gerar uma string da mesma forma que o Number
+# n.toString() assim você converte para string o seu valores
+
+#length me diz qual o tamanho da string, quantos caracteres ela possui
+#toUpperCase() deixa meus caracteres maiusculos
+#toLowerCase() deixa meus caracteres minusculos
+
+#document.write serve pra escrever na tela o que eu quiser
+# toFixed() eu uso para definir quantas casas decimais depois do ponto eu quero
+# replace é utilizado para trocar caracteres, como no n = 1545.5 usamos n.replace('.', ',') para ser 1545,5
+
+#toLocaleString(): string localizada no mundo, onde selecionamos uma lingua 'pt-BR' ou moeda currency: 'BRL', daquele local
+
+
+############################################### AULA 07 #################################################
+# Operadores Aritméticos
+# ( + ) Soma
+# ( - ) Subtração
+# ( * ) Multiplicação 
+# ( / ) Divisão Real - com número quebrado
+# ( % ) Resto da Divisão - o que sobra de uma divisão, 5 % 2 = 1
+# ( **) Potência - 5 ** 2 = % * 5 = 25
+
+# Precedencia
+# ()
+# **
+# * / %
+# + - 
+
+# Atribuição 
+# var a = 5 + 3 -> 8
+# var b = 2 % 5 -> 3
+
+# Auto Atribuição
+# var n = 3
+# n = n + 4 -> 7
+# n = n - 5 -> 2
+
+# Simplificando
+# var n = 3
+# n += 4 -> 7
+# n -= 3 -> 4
+
+# Incremento
+# var n = 10
+# n++ -> 11
+# n-- -> 10
+
+
+############################################### AULA 08 #################################################
+# Operadores Relacionais
+# >  - maior
+# <  - menor
+# >= - maior igual
+# <= - menor igual
+# == - igual
+# != - diferente
+
+# Identidade
+# 5 == 5 -> True
+# 5 == '5' -> True
+# 5 === '5' -> False
+
+# Operadores Lógicos
+# !  -> negação
+# && -> conjunção = e
+# || -> disjunção = ou 
+# se uma operação contém os três, primeiro ! depois && e por último ||
+
+# Operador Ternário
+# ?
+# :
+# TESTE ? TRUE : False
+# média >= 7.0 ? "Aprovado" : "Reprovado"
+
+
+############################################### AULA 09 #################################################
+DOM - Document Object Model
+# É um conjunto de objetos dentro do navegador que vai dar acesso aos componentes do website
+# Árvore DOM - a tela é o window é um objeto DOM onde outros objetos se localizao como location, document e history
+
+
+#MÉTODOS DE ACESSO
+#Selecionando por Marca
+# getElementsByTagName()
+
+#Selecionando por ID
+# getElementById()
+
+#Selecionando por Nome
+# getElementsByName()
+
+#Selecionando por Classe
+# getElementsByClassName()
+
+#Selecionando por Seletor
+# querySelector()
+# querySelectorAll()
+
+# id é representada por ('#') e toda classe por ('.') quando se usa o querySelector
+
+
+############################################### AULA 10 #################################################
+# EVENTOS DOM 
+# Eventos: nada mais são do que todas as possibilidades de interação de um objeto, como passar o mouse
+# Função: é um conjunto de códigos que vão ser executadas quando o evento ocorrer
+# addEventListener() pode ajudar a diminuir o HTML, em vez de por onclick e outros, você escreve nele exemplo: addEventListener('click', clicar)
+
+
+############################################### AULA 11 #################################################
+# CONDIÇÕES
+# IF
+# ELSE 

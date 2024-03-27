@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(223, 221, 221);
+}
+
+h1 {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.informacoes {
+    width: 600px;
+    height: 40px;
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: space-around;
+    /* color: rgb(223, 221, 221); */
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+.serv {
+    width: 100px;
+    height: 30px;
+}
+
+.lay {
+    width: 100px;
+    height: 30px;
+}
+
+.cont {
+    width: 100px;
+    height: 30px;
+}
+
+.contr {
+    width: 100px;
+    height: 30px;
+}
+
+.serv:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.lay:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cont:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.contr:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.perfil {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(77, 76, 76);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.menu {
+    width: 30px;
+    height: 40px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(77, 76, 76);
+}
+
