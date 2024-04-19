@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background: #b9b8b8;
+}
+
+#container {
+    max-width: 140rem;
+    width: 130rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.posts {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+}
