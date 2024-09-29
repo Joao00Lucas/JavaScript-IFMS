@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>Teste</title>
+</head>
+<body class="">
+    <div class="container-fluid border bg-danger p-0">
+        <header class="w-100 bg-secondary d-flex align-items-center text-white">
+            <div class="logo w-50 d-flex align-items-center p-3 p-sm-0">
+                <i class="fa-solid fa-globe fa-3x mx-3"></i>
+                <p class="fs-2 fw-bold mt-3 d-none d-sm-block">Formsize.org</p>
+            </div>
+            <div class="options w-50 d-flex align-items-center justify-content-evenly p-3">
+                <button type="button" class="btn btn-light fw-bold d-none d-lg-block">Serviços</button>
+                <i class="fa-solid fa-briefcase pe-3 d-block d-lg-none"></i>
+                <button type="button" class="btn btn-light fw-bold d-none d-lg-block">Clientes</button>
+                <i class="fa-solid fa-user pe-3 d-block d-lg-none"></i>
+                <button type="button" class="btn btn-light fw-bold d-none d-lg-block">Portfólio</button>
+                <i class="fa-solid fa-laptop pe-3 d-block d-lg-none"></i>
+                <i class="fa-solid fa-bars fa-2x d-lg-none "></i>
+            </div>
+        </header>
+        <main class="bg-body-secondary">
+            <section class="d-flex align-items-center bg-dark-subtle">
+                <img src="Playlist5.jpg" class="img-fluid p-4" alt="Imagem de fundo">
+                <p class="fs-4 fw-bold m-0 text-center d-none d-lg-block">Bem-vindo! a Formsize está aqui para ficar, estamos a disposição para ajudá-lo com suas necessidades.</p>
+            </section>
+            <section class="mt-4">
+                <div class="cards row m-0 d-flex justify-content-evenly">
+                    <div class="card col-12 shadow-lg mb-2 px-0" style="width: 18rem;">
+                        <img src="Playlist1.jpg" class="card-img-top h-50 d-none d-lg-block">
+                        <div class="card-body">
+                            <i class="fa-solid fa-truck fa-3x"></i>
+                            <h5 class="card-title d-none d-md-block">Frota de Caminhões</h5>
+                            <p class="card-text">A Formsize tem um enorme contingente de caminhões prontos para entregar por todo o território nacional.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 shadow-lg mb-2 px-0" style="width: 18rem;">
+                        <img src="Playlist2.jpg" class="card-img-top h-50 d-none d-lg-block">
+                        <div class="card-body">
+                            <i class="fa-solid fa-plane fa-3x"></i>
+                            <h5 class="card-title d-none d-md-block">Entrega Área</h5>
+                            <p class="card-text">Possuindo também aeronaves disponíveis para entregas rápidas e em regiões mais remotas e distantes.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 shadow-lg mb-2 px-0" style="width: 18rem;">
+                        <img src="Playlist3.jpg" class="card-img-top h-50 d-none d-lg-block">
+                        <div class="card-body">
+                            <i class="fa-solid fa-ship fa-3x"></i>
+                            <h5 class="card-title d-none d-md-block">Viagem Continental</h5>
+                            <p class="card-text">Juntamente a isso temos também um grupo de embarcações próprias para viagens rios acima e abaixo no país.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-4 bg-dark-subtle p-4 d-flex justify-content-center align-items-center">
+                <h4 class="col-6 d-none d-md-block">Preencha o seguinte formulário para entrarmos em contato com você:</h4>
+                <form class="col-6 my-2">
+                    <div class="mb-3">
+                      <label class="form-label">Coloque seu nome:</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Coloque seu email:</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Coloque seu número:</label>
+                      <input type="tel" class="form-control" id="number">
+                    </div>
+                    <button type="button" id="button" class="btn btn-light fw-bold">Salvar</button>
+                  </form>
+            </section>
+        </main>
+        <footer class="container-fluid py-2 bg-secondary">
+            <div class="row text-center">
+              <div class="col-12 col-md-3 d-none d-md-block">
+                <p class="fw-bold mb-1">Sobre nós</p>
+                <p class="card-text pt-2">Somos uma empresa determinada a entrega aos nossos clientes tudo aquilo das quais eles precisam, querer ou sonham em ter, estamos aqui para ser o que eles precisam que sejamos, confiança, lealdade e carinho.</p>
+              </div>
+              <div class="col-12 col-md-3 contact d-none d-md-block">
+                <p class="fw-bold mb-1">Nossa localização</p>
+                <p class="mb-1">465 Av. Paulista,</p>
+                <p class="mb-1">São Paulo, SP 7927339</p>
+                <p class="mb-1">Contato: (11)9 9234-7374</p>
+                <p class="fw-bold mb-1">EMPRESA Corporation Ltda.</p>
+                <p class="mb-1"><a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover " href="#">empresacorp@gmail.com</a></p>
+              </div>
+              <div class="col-12 col-md-3 d-flex flex-column justify-content-between d-none d-md-block">
+                <p class="fw-bold mb-1">Suporte</p>
+                <p class="mb-1"><a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">nosso suporte</a></p>
+                <p class="mb-1"><a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">documentação</a></p>
+                <p class="mb-1"><a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">S.A.Q</a></p>
+              </div>
+              <div class="col-12 col-md-3 links d-flex flex-column align-items-center gap-2 text-center mb-3 mb-md-0">
+                <p class="fw-bold mb-1 d-none d-md-block">Mídias sociais</p>
+                <div class="d-flex w-100 justify-content-evenly pt-4">
+                <a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><i class="fa-brands fa-facebook fa-3x"></i></a>
+                <a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a class="link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><i class="fa-brands fa-twitter fa-3x"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
